@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75956CE11B288B3800F80FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75956CE01B288B3800F80FD5 /* main.m */; };
+		75956CE41B288B3800F80FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75956CE31B288B3800F80FD5 /* AppDelegate.m */; };
+		75956CEA1B288B3800F80FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75956CE81B288B3800F80FD5 /* Main.storyboard */; };
+		75956CEC1B288B3800F80FD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75956CEB1B288B3800F80FD5 /* Images.xcassets */; };
+		75956CEF1B288B3800F80FD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75956CED1B288B3800F80FD5 /* LaunchScreen.xib */; };
+		75956CFB1B288B3800F80FD5 /* QXIconButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75956CFA1B288B3800F80FD5 /* QXIconButtonDemoTests.m */; };
+		75956D061B288B4D00F80FD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75956D051B288B4D00F80FD5 /* ViewController.m */; };
+		75956D091B288B5400F80FD5 /* QXBtnIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 75956D081B288B5400F80FD5 /* QXBtnIcon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75956CF51B288B3800F80FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75956CD31B288B3700F80FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75956CDA1B288B3700F80FD5;
+			remoteInfo = QXIconButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75956CDB1B288B3800F80FD5 /* QXIconButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXIconButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75956CDF1B288B3800F80FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75956CE01B288B3800F80FD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75956CE21B288B3800F80FD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75956CE31B288B3800F80FD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75956CE91B288B3800F80FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75956CEB1B288B3800F80FD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75956CEE1B288B3800F80FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		75956CF41B288B3800F80FD5 /* QXIconButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QXIconButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75956CF91B288B3800F80FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75956CFA1B288B3800F80FD5 /* QXIconButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXIconButtonDemoTests.m; sourceTree = "<group>"; };
+		75956D041B288B4D00F80FD5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75956D051B288B4D00F80FD5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75956D071B288B5400F80FD5 /* QXBtnIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXBtnIcon.h; sourceTree = "<group>"; };
+		75956D081B288B5400F80FD5 /* QXBtnIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXBtnIcon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75956CD81B288B3700F80FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75956CF11B288B3800F80FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75956CD21B288B3700F80FD5 = {
+			isa = PBXGroup;
+			children = (
+				75956CDD1B288B3800F80FD5 /* QXIconButtonDemo */,
+				75956CF71B288B3800F80FD5 /* QXIconButtonDemoTests */,
+				75956CDC1B288B3800F80FD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75956CDC1B288B3800F80FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75956CDB1B288B3800F80FD5 /* QXIconButtonDemo.app */,
+				75956CF41B288B3800F80FD5 /* QXIconButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75956CDD1B288B3800F80FD5 /* QXIconButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75956D071B288B5400F80FD5 /* QXBtnIcon.h */,
+				75956D081B288B5400F80FD5 /* QXBtnIcon.m */,
+				75956D041B288B4D00F80FD5 /* ViewController.h */,
+				75956D051B288B4D00F80FD5 /* ViewController.m */,
+				75956CE21B288B3800F80FD5 /* AppDelegate.h */,
+				75956CE31B288B3800F80FD5 /* AppDelegate.m */,
+				75956CE81B288B3800F80FD5 /* Main.storyboard */,
+				75956CEB1B288B3800F80FD5 /* Images.xcassets */,
+				75956CED1B288B3800F80FD5 /* LaunchScreen.xib */,
+				75956CDE1B288B3800F80FD5 /* Supporting Files */,
+			);
+			path = QXIconButtonDemo;
+			sourceTree = "<group>";
+		};
+		75956CDE1B288B3800F80FD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75956CDF1B288B3800F80FD5 /* Info.plist */,
+				75956CE01B288B3800F80FD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75956CF71B288B3800F80FD5 /* QXIconButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				75956CFA1B288B3800F80FD5 /* QXIconButtonDemoTests.m */,
+				75956CF81B288B3800F80FD5 /* Supporting Files */,
+			);
+			path = QXIconButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		75956CF81B288B3800F80FD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75956CF91B288B3800F80FD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75956CDA1B288B3700F80FD5 /* QXIconButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75956CFE1B288B3800F80FD5 /* Build configuration list for PBXNativeTarget "QXIconButtonDemo" */;
+			buildPhases = (
+				75956CD71B288B3700F80FD5 /* Sources */,
+				75956CD81B288B3700F80FD5 /* Frameworks */,
+				75956CD91B288B3700F80FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QXIconButtonDemo;
+			productName = QXIconButtonDemo;
+			productReference = 75956CDB1B288B3800F80FD5 /* QXIconButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75956CF31B288B3800F80FD5 /* QXIconButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75956D011B288B3800F80FD5 /* Build configuration list for PBXNativeTarget "QXIconButtonDemoTests" */;
+			buildPhases = (
+				75956CF01B288B3800F80FD5 /* Sources */,
+				75956CF11B288B3800F80FD5 /* Frameworks */,
+				75956CF21B288B3800F80FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75956CF61B288B3800F80FD5 /* PBXTargetDependency */,
+			);
+			name = QXIconButtonDemoTests;
+			productName = QXIconButtonDemoTests;
+			productReference = 75956CF41B288B3800F80FD5 /* QXIconButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75956CD31B288B3700F80FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = labi3285_Lab;
+				TargetAttributes = {
+					75956CDA1B288B3700F80FD5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					75956CF31B288B3800F80FD5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 75956CDA1B288B3700F80FD5;
+					};
+				};
+			};
+			buildConfigurationList = 75956CD61B288B3700F80FD5 /* Build configuration list for PBXProject "QXIconButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75956CD21B288B3700F80FD5;
+			productRefGroup = 75956CDC1B288B3800F80FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75956CDA1B288B3700F80FD5 /* QXIconButtonDemo */,
+				75956CF31B288B3800F80FD5 /* QXIconButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75956CD91B288B3700F80FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75956CEA1B288B3800F80FD5 /* Main.storyboard in Resources */,
+				75956CEF1B288B3800F80FD5 /* LaunchScreen.xib in Resources */,
+				75956CEC1B288B3800F80FD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75956CF21B288B3800F80FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75956CD71B288B3700F80FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75956D091B288B5400F80FD5 /* QXBtnIcon.m in Sources */,
+				75956D061B288B4D00F80FD5 /* ViewController.m in Sources */,
+				75956CE41B288B3800F80FD5 /* AppDelegate.m in Sources */,
+				75956CE11B288B3800F80FD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75956CF01B288B3800F80FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75956CFB1B288B3800F80FD5 /* QXIconButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75956CF61B288B3800F80FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75956CDA1B288B3700F80FD5 /* QXIconButtonDemo */;
+			targetProxy = 75956CF51B288B3800F80FD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75956CE81B288B3800F80FD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75956CE91B288B3800F80FD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75956CED1B288B3800F80FD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75956CEE1B288B3800F80FD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75956CFC1B288B3800F80FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75956CFD1B288B3800F80FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75956CFF1B288B3800F80FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QXIconButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75956D001B288B3800F80FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QXIconButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75956D021B288B3800F80FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QXIconButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QXIconButtonDemo.app/QXIconButtonDemo";
+			};
+			name = Debug;
+		};
+		75956D031B288B3800F80FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QXIconButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QXIconButtonDemo.app/QXIconButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75956CD61B288B3700F80FD5 /* Build configuration list for PBXProject "QXIconButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75956CFC1B288B3800F80FD5 /* Debug */,
+				75956CFD1B288B3800F80FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75956CFE1B288B3800F80FD5 /* Build configuration list for PBXNativeTarget "QXIconButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75956CFF1B288B3800F80FD5 /* Debug */,
+				75956D001B288B3800F80FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75956D011B288B3800F80FD5 /* Build configuration list for PBXNativeTarget "QXIconButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75956D021B288B3800F80FD5 /* Debug */,
+				75956D031B288B3800F80FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75956CD31B288B3700F80FD5 /* Project object */;
+}
